@@ -1,0 +1,35 @@
+*{
+    outline: solid red 2px;
+    text-align: center;
+    margin: 0;
+}
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    margin: 0 auto;
+    min-width: 320px;
+    width: 80%;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1em 1em;
+    background-color: bisque;
+}
+.nav li{
+    transition: 1s linear;
+}
+.nav li:hover{
+    cursor: pointer;
+    color: aqua;
+    text-decoration: underline;
+    transform: rotate(1.0turn)
+}
+ul{
+    list-style-type: decimal-leading-zero;
+}
+.nav{
+
+}

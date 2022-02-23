@@ -4,15 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <!-- https://javascript.plainenglish.io/the-easiest-way-to-build-a-web-scraper-using-javascript-and-nodejs-25bb8e8790d3s -->
-    <main>
-      <section id="episodes-of-the-day"></section>
+    <!-- https://javascript.plainenglish.io/the-easiest-way-to-build-a-web-scraper-using-javascript-and-nodejs-25bb8e8790d3 -->
+    <header class="nav-container">
+      <ul class="nav">
+        <li>CartoonNetwork</li>
+        <!-- https://www.cartoonnetwork.com/video/steven-universe-future/index.html?atclk_vn=nav_Steven-Universe-Future -->
+        <li>Pokemon</li>
+        <!-- https://watch.pokemon.com/en-us/#/ -->
+        <li>Frederator</li>
+        <!-- https://www.youtube.com/watch?v=KNs9shgQ2rI&list=PL2DcNkn8HAwQLcXTiDB876bU13hT0OhsZ -->
+        <li>Free Games</li>
+        <!-- https://www.epicgames.com/store/en-US/free-games -->
+        <!-- Youtube Movies -->
+        <!-- https://www.youtube.com/feed/storefront?bp=kgEDCPYDogUCKAU%3D -->
+        <!-- Youtube TV Shows -->
+        <!-- https://www.youtube.com/feed/storefront?bp=kgEDCO8HogUCKAU%3D -->
+      </ul>
+    </header>
+    <main class="container">
+      <h1>My favorite shows and their free content.</h1>
+      <section id="at-episodes-of-the-day">Adventure Time</section>
+      <section id="su-episodes-of-the-day">Steven Universe</section>
+      <section>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?list=PL2DcNkn8HAwQLcXTiDB876bU13hT0OhsZ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section></section>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PL2DcNkn8HAwR_7sj9S_shla9Wc521w6YW"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </main>
-    <div>
-    </div>
+    <footer>
+      <p>Created by GrassFinn</p>
+    </footer>
     <script src="./bundle.js"></script>
   </body>
 </html>
+<!-- sources https://javascript.plainenglish.io/the-easiest-way-to-build-a-web-scraper-using-javascript-and-nodejs-25bb8e8790d3 -->
